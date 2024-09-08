@@ -1,0 +1,14 @@
+  <!-- HEADER SECTION -->
+    <header>
+      <!-- <!- NAV SECTION -->
+      <div class="nav container">
+        <!-- LOGO SECTION -->
+        <a href="index.html" class="logo">Lydia Belachew.</a>
+        <!-- NAVBAR SECTION -->
+        <ul class="navbar">
+                <li><a href="index.html#about-me" class="nav-link">About me</a></li>
+                <li><a href="index.html#work" class="nav-link">Work</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+      </div>
+    </header>

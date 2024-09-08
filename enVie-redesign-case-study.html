@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>enVie website redesign ~ Lydia Belachew</title>
+
+    <!-- BOXICONS CSS -->
+    <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js ">
+    </script>
+
+
+
+    <link rel="stylesheet" href="css/enVie-redesign-case-study.css">
+
+    <!-- This link is given priority first-->
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+</head>
+
+<body>
+    <special-favicon></special-favicon>
+
+    <!-- HEADER SECTION -->
+    <special-header></special-header> <!--Custom element, source: https://www.youtube.com/watch?v=AiQqip_pVbA-->
+
+    <div class="main-content"> <!--THIS IS TO FIX THE HEADER AND MAIN CONTENT LACK OF GAP-->
+
+        <!--  body -->
+        <div class="content">
+            <div class="banner">
+                <img class="banner-img" src="assests/Portfolio banner.png" alt="picture">
+            </div>
+            <h1 class="case-title">enVie A VEGAN RESTAURANT unsolicited website redesign</h1>
+
+            <!-- PROJECT DETAILS -->
+            <div class="project-info">
+                <div class="project-info-section-wrap">
+                    <div class="project-info-section-row">
+                        <h3 class="project-info-title">Timeline</h3>
+                        <p class="project-info-text">Three weeks</p>
+                    </div>
+
+                    <div class="project-info-section-row">
+                        <h3 class="project-info-title">Role</h3>
+                        <p class="project-info-text">User research, personas, interviews, wireframes, final design</p>
+                    </div>
+
+                    <div class="project-info-section-row">
+                        <h3 class="project-info-title">Tools</h3>
+                        <p class="project-info-text">Figma</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="project-info-section">
+                <h3 class="project-info-title">Overview</h3>
+                <p class="project-info-text">enVie is a popular local vegan restaurant in Halifax. Their website had
+                    several
+                    issues, so I did an unsolicited redesign.</p>
+            </div>
+            <hr class="line">
+            <div class="project-info-section"> <!---THIS ONE-->
+                <h3 class="project-info-title">Problem</h3>
+                <h2>Poorly designed websites deter users from engaging with them
+                </h2><br>
+                <p class="project-info-text">Navigating through enVie's website was frustrating as there were several
+                    user
+                    interface and user experience issues, from color contrast, no CTA button, element inconsistencies,
+                    unnecessarily large images, lack of visual hierarchy, disorganized content, and text-alignment
+                    inconsistencies.</p>
+
+                <div class="row align-center">
+                    <div class="product-image-gallery">
+                        <!-- ORIGINAL: id="main-product-image" -->
+                        <img class="pdp-product-image" id="main-problem-image"
+                            src="assests/Portfolio-problem_with_original_design.png" alt="picture">
+                        <br>
+
+                        <ul class="menu product-thumbs align-center">
+                            <div class="row">
+                                <!--- ORIGINAL: class="sim-thumb" -->
+                                <li> <a class="problem-thumb"
+                                        data-image="assests/Portfolio-problem_with_original_design.png"><img
+                                            src="assests/Portfolio-problem_with_original_design.png" alt="">
+                                    </a>
+                                </li>
+                                <!--- ORIGINAL: class="sim-thumb" -->
+                                <li> <a class="problem-thumb"
+                                        data-image="assests/Portfolio-problem_with_original_design_2.png"><img
+                                            src="assests/Portfolio-problem_with_original_design_2.png" alt="">
+                                    </a>
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <hr class="line">
+
+            <div class="project-info-section">
+                <h3 class="project-info-title">Solution</h3>
+                <h2>Redesign their website to be more user-friendly and have a modern look </h2>
+            </div>
+
+            <hr class="line">
+
+            <div class="project-info-section">
+                <h3 class="project-info-title">Interviews</h3>
+                <h2>I interviewed 4 people, and here is what I found:</h2>
+                <ul class="list">
+                    <li class="list-text">There were issues with the UI of the website. These included unnecessarily
+                        large
+                        images, color contrast issues, and visual hierarchy.
+                    </li>
+                    <li class="list-text">The text on the "Juice Cleanse Info" page had grammatically incorrect text
+                        that
+                        confused some of the users.
+                    </li>
+                    <li class="list-text">Users had difficulty navigating the website. When I had them perform tasks
+                        such as
+                        trying to purchase a juice cleanse, it would take them several tries.
+                    </li>
+
+                </ul>
+            </div>
+            <hr class="line">
+
+            <div class="project-info-section">
+                <h3 class="project-info-title">Research</h3>
+                <!-- <h2>Insert something here, maybe a stat. </h2> -->
+                <p class="project-info-text">Next, I performed a SWOT (Strength, Weakness, Opportunities, and Threats)
+                    competitive analysis on enVie and two other popular vegan restaurants in Halifax, <a
+                        href="http://www.iloveheartwood.ca/">Heartwood</a> and <a href="https://www.wildleek.ca/">Wild
+                        Leek</a>.</p><br>
+
+
+                <div id="parent">
+                    <div>
+                        <img src="assests/SWOT for enVie.png" alt="picture">
+                    </div>
+                    <div>
+                        <img src="assests/SWOT for Heartwood.png" alt="picture">
+                    </div>
+                    <div>
+                        <img src="assests/SWOT for WILD LEEK.png" alt="picture">
+                    </div>
+                </div>
+
+
+            </div>
+
+            <p class="project-info-text">Using the SWOT analysis, I could determine what features enVie could implement
+                to have an advantage over the other restaurants.
+                I wanted enVie also to have a delivery service, as this would boost sales.</p>
+
+            <hr class="line">
+
+            <div class="project-info-section">
+                <h3 class="project-info-title">Personas</h3><br>
+                <img class="img" src="assests/Portfolio-personas.png" alt="picture">
+            </div>
+
+            <hr class="line">
+
+            <div class="project-info-section">
+                <h3 class="project-info-title">Wireframes</h3>
+                <h2>Wireframes + why I added these elements </h2><br>
+                <img class="img" src="assests/Portfolio - Wireframes 1.png" alt="picture">
+                <img class="img" src="assests/Portfolio - Wireframes 2.png" alt="picture">
+                <img class="img" src="assests/Portfolio - Wireframes 3.png" alt="picture">
+
+            </div>
+
+
+
+            <hr class="line">
+
+            <div class="project-info-section">
+                <h3 class="project-info-title">Final designs</h3>
+                <h2>The final design </h2><br>
+
+                <div class="row align-center">
+                    <div class="product-image-gallery">
+                        <img class="pdp-product-image" id="main-final-image"
+                            src="assests/Portfolio - Final_designs_1.png" alt="picture">
+                        <br>
+
+                        <ul class="menu product-thumbs align-center">
+                            <div class="row">
+                                <li> <a class="final-thumb" data-image="assests/Portfolio - Final_designs_1.png"><img
+                                            src="assests/Portfolio - Final_designs_1.png" alt=""></a> </li>
+
+
+                                <li> <a class="final-thumb" data-image="assests/Portfolio - Final_designs_2.png"><img
+                                            src="assests/Portfolio - Final_designs_2.png" alt=""></a> </li>
+
+                                <li> <a class="final-thumb" data-image="assests/Portfolio - Final_designs_3.png"><img
+                                            src="assests/Portfolio - Final_designs_3.png" alt=""></a> </li>
+
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr class="line">
+
+            <div class="project-info-section">
+                <h3 class="project-info-title">REFLECTIONS
+                </h3>
+                <h2>+ what I would do differently next time</h2><br>
+                <p class="project-info-text">While working on this case study, I learned a lot, these include:</p><br>
+                <ul class="list">
+                    <li class="list-text">What you may think is an issue, others may not. Before I did the interviews,
+                        there were some things that I thought the interviewees would bring up, but they didn't.
+                    </li>
+                    <li class="list-text">Sometimes, the best design is the simplest. I did many design iterations,
+                        especially for the hero page. I wanted something unique and creative, and bold. From what I had
+                        come up with, I realized the most generic design was the best solution. I realized that many
+                        design elements/components are similar because they work.
+                    </li>
+                    <li class="list-text">In my following case study, I want to create a design system.
+                    </li>
+                    <li class="list-text">I want to make this design mobile optimized.
+                    </li>
+                </ul>
+            </div>
+
+
+
+            <!--</div>--> <!-- FOR: <div class="project-info-section"> -->
+
+        </div>
+
+        <!-- FOOTER SECTION -->
+        <!-- <footer class="footer">
+        <div class="footer-container container">
+            <div class="social-media">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">
+                            <i class="bx bxl-behance bx-sm"></i>
+                            <i class="bx bxl-linkedin bx-sm"></i>
+                            <i class="bx bxl-github bx-sm"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <span>&copy; 2022 Lydia. All rights reserved.</span>
+        </div>
+    </footer> -->
+        <special-footer></special-footer>
+        <script src="js/HeaderFooterManager.js"></script>
+
+        <!-- SCRIPT SECTION -->
+        <script src="js/script.js"></script>
+        <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>     -->
+        <script src="js/enVie-case-study.js"></script>
+
+    </div>
+</body>
+
+</html>

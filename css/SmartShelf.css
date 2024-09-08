@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+
+    --max-width-spacing: 1400px;
+}
+
+.content {
+    /* margin-top: 150px; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: auto;
+    width: auto; /*900px*/
+    padding: 50px;
+    /* font-family: 'Lexend Deca', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    text-align: justify;
+    /* padding-top: 150px; */
+    background-color: white;
+    /* align-items: center; */
+    max-width: var(--max-width-spacing);
+}
+
+/* .banner{
+    display: flex;
+    justify-content: center;
+    
+} */
+
+.content .banner-img,
+.pic {
+    /*     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: block; */
+    /* width: 1000px;
+    height: 400px; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    width: 100%;
+    height: 500px;
+}
+
+
+
+/* Solid border line*/
+hr.line {
+    border-top: 1px solid #bbb;
+    margin: 30px 0;
+}
+
+/* 
+.pic {
+    width: 100%;
+    height: 400px;
+
+} */
+
+.element-row {
+    text-align: center;
+    /* display: inline-block; */
+}
+
+.element-text-wrap {
+    text-align: left;
+    display: inline-block;
+    padding: 30px;
+}
+
+
+.Heading {
+    text-align: center;
+}
+
+.para {
+    width: 200px;
+    text-align: justify;
+    word-break: break-all;
+    /* display: inline-block; */
+}
+
+.case-title {
+    text-transform: none;
+    padding: 30px 0;
+    text-align: left;
+    /* font-family: Playfair; */
+    font-weight: 300;
+
+}
+
+.project-info {
+    display: flex;
+    padding: 30px 0;
+}
+
+/* .project-info-section{
+    padding: 20px 0;
+    align-items: center;
+    text-align: left;
+    font-size: 1.4rem;
+    
+} */
+
+
+.project-info-text {
+    /* padding: 10px 0; */
+    align-items: center;
+    text-align: left;
+    font-size: 1.3rem;
+
+}
+
+
+.list{
+    list-style: disc;
+    padding: 8px 0 8px 0;
+
+}
+
+
+
+.project-info-section {
+    padding: 15px 0;
+}
+
+.project-info-section-wrap {
+    /* padding: 0 20px; */
+    align-items: center;
+    text-align: left;
+}
+
+.project-info-section-row {
+    display: inline-block;
+    padding: 0 20px 20px 0;
+    align-items: center;
+    text-align: left;
+}
+
+.project-info-title {
+
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: #919191;
+
+}
+
+.project-img {
+    width: auto;
+    /*100%*/
+    height: 150px;
+    /*100%*/
+    object-fit: cover;
+    object-position: center;
+    padding: 20px 0;
+}
+
+
+.product-image-gallery {
+    background-color: #fefefe;
+    /* padding: 1.5rem; */
+    padding: 40px 0 40px 0
+}
+
+.pdp-product-image {
+    margin-bottom: 20px;
+    /*My own code below*/
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.product-thumbs a {
+    /* margin-left: 8px;
+    margin-right: 8px; */
+    padding: 0 !important;
+
+    /* My own code below*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.product-thumbs a img {
+    display: inline-block; /*inline-block*/
+    max-width: 100%;
+    margin-bottom: 1rem;
+    border: solid 4px #fefefe;
+    border-radius: 0;
+    /* box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2); */
+    line-height: 0;
+    /* border-radius: 3px; */
+    width: auto;  /*50px*/
+    height: 100px; /*50px*/
+    border: none;
+
+    /*My own code below*/
+           padding: 0 5px;
+
+}
+
+/* IMAGE THAT IS SELECTED SHOULD BE OPAC */
+
+#parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#parent img {
+    width: 100%;
+    height: 300px;
+}
+
+.img {
+    width: 100%;
+}
+
+
+ul.li {
+    padding: 10px;
+
+}
+
+.list-text {
+    list-style: disc;
+    padding: 5px 0px;
+    align-items: center;
+    text-align: left;
+    font-size: 1.3rem;
+}
+
+/* Responsive */
+
+/* phone */
+@media (min-width: 319px) and (max-width: 480px){
+
+}
+
+/* ipad/tablet */
+@media (min-width: 481px) and (max-width: 1200px){
+
+}
+
+/* laptop */
+@media (min-width: 1201px) and (max-width: 1600px){
+
+}
+
+/*desktop --- maybe do nothing, leave code as is - should for desktop anyway*/
+@media (min-width: 1601px) {}
