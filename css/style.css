@@ -729,7 +729,7 @@ textarea {
         justify-content: center;
         border: 1px solid var(--main-text-color);
         transition: background-color 0.25s;
-        padding: 40px 0px;
+        
     }
 
     .work-image:hover {
@@ -742,7 +742,7 @@ textarea {
         /* border-radius: 10px; */
         /* object-fit: contain */
         object-fit: scale-down;
-
+        padding: 40px 0px;
             /* padding: 0.5rem; */
             /* mine */
     }
