@@ -729,6 +729,7 @@ textarea {
         justify-content: center;
         border: 1px solid var(--main-text-color);
         transition: background-color 0.25s;
+        padding: 40px 0px;
     }
 
     .work-image:hover {
